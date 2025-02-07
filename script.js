@@ -2,7 +2,7 @@ function capturardados(event) {
     event.preventDefault();
 
     const cpfInput = document.getElementById("cpf");
-    const senhaInput = document.getElementById("Senha");
+    const senhaInput = document.getElementById("senha");
 
     if (!cpfInput) {
         console.error("Error: CPF input element not found.");
@@ -16,5 +16,5 @@ function capturardados(event) {
     const senha = senhaInput.value;
 
     console.log("CPF:", cpf);
-    console.log("Senha:", senha);
+    console.log("senha:", senha);
 }
